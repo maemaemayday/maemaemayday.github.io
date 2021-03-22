@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+	h1{
+	font-family: "Monaco", monospace;
+	text-align: "center";
+}
+	body {
+	font-family: "Monaco", monospace;
+	text-align: "center";
+}
+</style>
+
+<head>
+	<title> Introduction </title>
+</head>
+
+<h1> Introduction </h1>
+
+<body>
+This part of the site has yet to 8e finished!
+</body>
+
+</html>

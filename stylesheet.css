@@ -1,27 +1,28 @@
 h1 {
-    font-family: "Monaco", monospace;
-    color: white;
+    font-family: "Fira Code", monospace;
+    color: rgb(73, 145, 76);
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid rgb(73, 145, 76);
     width: auto;
-    padding: 20px;
+    padding: 0.86vw;
 }
 
 body {
-    font-family: "Monaco", monospace;
-    color: white;
-    background-color: rgba(35, 39, 42, 1);
+    font-family: "Fira Code", monospace;
+    font-size: 0.86vw;
+    color: rgb(73, 145, 76);
+    background-color: rgba(10, 10, 10, 1);
 }
 
 a {
-    font-family: "Monaco", monospace;
-    color: white;
+    font-family: "Fira Code", monospace;
+    color: rgb(73, 145, 76);
 }
 
 .linkButton {
-    font-family: "Monaco", monospace;
-    color: white;
-    border: 2px solid white; 
+    font-family: "Fira Code", monospace;
+    color: rgb(73, 145, 76);
+    border: 2px solid rgb(73, 145, 76); 
     margin: 2px;
     padding: 1px;
 }

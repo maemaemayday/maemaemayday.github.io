@@ -11,7 +11,7 @@ body {
     color: white;
     background-color: rgba(35, 39, 42, 1);
 }
-a {
+.mainLink {
     font-family: "Monaco", monospace;
     color: white;
     border: 2px solid white; 

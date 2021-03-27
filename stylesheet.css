@@ -1,39 +1,39 @@
 h1 {
-    font-family: "Fira Code", monospace;
+    font-family: "Monaco", monospace;
     color: rgb(73, 145, 76);
     display: inline-block;
-    border: 2px solid rgb(73, 145, 76);
+    border: 0.3vw solid rgb(73, 145, 76);
     width: auto;
-    padding: 12px;
+    padding: 1.2vw;
     font-style: italic;
 }
 
 body {
-    font-family: "Fira Code", monospace;
+    font-family: "Monaco", monospace;
     font-size: 0.86vw;
     color: rgb(73, 145, 76);
     background-color: rgba(10, 10, 10, 1);
 }
 
 a {
-    font-family: "Fira Code", monospace;
+    font-family: "Monaco", monospace;
     color: rgb(73, 145, 76);
 }
 
 .linkButton {
-    font-family: "Fira Code", monospace;
+    font-family: "Monaco", monospace;
     color: rgb(73, 145, 76);
-    border: 2px solid rgb(73, 145, 76); 
-    margin: 2px;
-    padding: 1px;
+    border: 0.2vw solid rgb(73, 145, 76); 
+    margin: 0.3vw;
+    padding: 0.15vw;
 }
 
 .linkButton:hover {
-    font-family: "Fira Code", monospace;
+    font-family: "Monaco", monospace;
     color: rgb(115, 228, 118);
-    border: 2px solid rgb(115, 228, 118); 
-    margin: 2px;
-    padding: 1px;
+    border: 0.2vw solid rgb(115, 228, 118); 
+    margin: 0.3vw;
+    padding: 0.15vw;
 }
 
 .linkButton span {
@@ -44,15 +44,15 @@ a {
 }
 
 .linkButton span:after {
-  content: '=>';
+    content: "⇒";
   position: absolute;
   opacity: 0;
-  top: 0;
+  top: 0; 
   transition: 0.5s;
 }
 
 .linkButton:hover span {
-  padding-right: 15px;
+  padding-right: 1vw;
 }
 
 .linkButton:hover span:after {

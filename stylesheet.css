@@ -4,7 +4,8 @@ h1 {
     display: inline-block;
     border: 2px solid rgb(73, 145, 76);
     width: auto;
-    padding: 0.86vw;
+    padding: 12px;
+    font-style: italic;
 }
 
 body {
@@ -25,4 +26,36 @@ a {
     border: 2px solid rgb(73, 145, 76); 
     margin: 2px;
     padding: 1px;
+}
+
+.linkButton:hover {
+    font-family: "Fira Code", monospace;
+    color: rgb(115, 228, 118);
+    border: 2px solid rgb(115, 228, 118); 
+    margin: 2px;
+    padding: 1px;
+}
+
+.linkButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.linkButton span:after {
+  content: '=>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.linkButton:hover span {
+  padding-right: 15px;
+}
+
+.linkButton:hover span:after {
+  opacity: 1;
+  right: 0;
 }

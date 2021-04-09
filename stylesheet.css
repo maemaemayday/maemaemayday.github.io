@@ -10,22 +10,19 @@ h1 {
   width: auto;
   padding: 1.2vw;
   font-style: italic;
-  padding: 10px;
 }
 
-body, html {
+body {
   font-family: "Monaco", monospace;
   font-size: 0.86vw;
   color: rgb(73, 145, 76);
   background-color: rgba(10, 10, 10, 1);
-  padding: 10px;
 }
 
 a {
   font-family: "Monaco", monospace;
   color: rgb(73, 145, 76);
   text-decoration: none;
-  padding: 10px;
 }
 
 a:hover {

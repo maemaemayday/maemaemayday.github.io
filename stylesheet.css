@@ -22,6 +22,12 @@ body {
 a {
   font-family: "Monaco", monospace;
   color: rgb(73, 145, 76);
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: "Monaco", monospace;
+  color: rgb(86, 176, 90);
 }
 
 .linkButton {

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Font Awesome";
+  src: url("https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/fonts/forkawesome-webfont.ttf") format("truetype");
+}
 h1 {
   font-family: "Monaco", monospace;
   color: rgb(73, 145, 76);
@@ -44,11 +48,13 @@ a {
 }
 
 .linkButton span:after {
-  content: "⇒";
+  font-family: "Font Awesome";
+  content: "\f061"; /* This is the imported unicode for the "fa-arrow-right" icon in the Font Awesome */ 
   position: absolute;
   opacity: 0;
   top: 0; 
   transition: 0.5s;
+  font-size: 0.87vw;
 }
 
 .linkButton:hover span {

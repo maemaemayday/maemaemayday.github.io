@@ -1,6 +1,6 @@
 # Mae's We8page
 making a webpage with html and css\
-its pro8a8ly just going to have some personal information and 8e like a cv i guess!!!!
+its probably just going to have some personal information and be like a cv i guess!!!!
 # What does the site have????
-the site just has stuff like an intro, ho88ies/interests, skills, etc etc\
-im just doing this for fun 8ut if it turns into something more useful than it does
+the site just has stuff like an intro, hobbies/interests, skills, etc etc\
+im just doing this for fun but if it turns into something more useful, then it does
